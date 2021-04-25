@@ -38,6 +38,7 @@ void loop() {
 As we set `switch_input.Settings.publish_on_change = true;` this means the sensor class will publish the message "opened" with a rising digital input and "closed" when a falling digital edge is detected. These messages are published to the topic `0/garage/sensors/door`.
 We can also set a callback using the `.onRising()` and `.onFalling()` functions.
 
+----
 
 If this was useful and has saved you a few hours and you want to say thanks feel free to buy-me-a-coffee!
 
